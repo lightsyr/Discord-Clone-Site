@@ -192,6 +192,39 @@ nav ul li:hover{
     padding-right: 100px;
 }
 
+.FourthBox{
+    background: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    padding-top: 100px;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FourthBox h2{
+    color: #23272a;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.FourthBox p{
+    padding:0;
+    color:black;
+    text-decoration: none;
+    font-size: 24;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+#ForAll{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
 footer{
     background: #23272a;
     display: flex;
