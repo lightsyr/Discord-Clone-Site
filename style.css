@@ -270,6 +270,12 @@ footer ul li{
 #Network{
     color:#484cec;
     font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+#Autor{
+    font-family: 'Kanit', sans-serif;
 }
 
 #Warning{
