@@ -129,7 +129,6 @@ nav img{
 #Information{
     display: flex;
     flex-direction: column;
-    padding-left: 10vh;
     max-width: 580px;
     
 }
@@ -179,7 +178,6 @@ nav img{
 #VoiceConnection{
     display: flex;
     flex-direction: column;
-    padding-right: 10vh;
     max-width: 580px;
 }
 
@@ -209,8 +207,11 @@ nav img{
 #ForAll{
     display: flex;
     flex-direction: column;
-    padding-right: 10vh;
     max-width: 580px;
+}
+
+.SecondBox img, .ThirdBox img, .FourthBox img {
+    min-width: 260px;
 }
 
 
