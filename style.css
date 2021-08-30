@@ -5,39 +5,31 @@
 }
 
 nav {
-    background: #484cec;
+    background-color: #484cec;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
     font-weight: bold;
-}
-
-
-nav img{
-    margin-top: 15px;
-    height: 50px;
-    justify-content: center;
-}
-
-nav ul{
-    justify-content: center;
-    padding-top: 15px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-nav ul li{
-    justify-content: center;
-    text-decoration: none;
-    padding-top: 20px;
-    margin-left: 40px;
-    margin-right: 20px;
-    display: inline-flex;
-    color:white;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 nav ul li:hover{
     text-decoration: underline;
+    cursor: pointer;
+}
+
+nav img{
+    max-width: 124px;
 }
 
 #OpenDiscord {
@@ -46,22 +38,24 @@ nav ul li:hover{
     border:none;
     border-radius: 50px;
     height: 40px;
+    min-width: 120px;
     width: 120px;
     text-decoration: none;
     font-size: small;
+    font-weight: bold;
 
 }
 
 #OpenDiscord:hover{
     box-shadow: 0px 10px 25px #00000060;
+    cursor: pointer;
 }
 
 .MainBox{
-    z-index: 0;
-    position:relative;
     display: flex;
     flex-direction: column;
     text-align:center;
+    align-items: center;
     background: #484cec;
     padding: 100px;
 }
@@ -76,8 +70,7 @@ nav ul li:hover{
 }
 
 .MainBox p{
-    padding-left: 400px;
-    padding-right: 400px;
+    max-width: 775px;
     font-size: 20px;
     line-height: 35px;
 }
@@ -103,6 +96,7 @@ nav ul li:hover{
 
 #DownloadWindows:hover{
     box-shadow: 0px 10px 25px #00000060;
+    cursor: pointer;
 }
 
 #OpenInBrowser{
@@ -122,25 +116,20 @@ nav ul li:hover{
 
 #OpenInBrowser:hover{
     box-shadow: 0px 10px 25px #00000060;
+    cursor: pointer;
 }
 
 .SecondBox{
-    background-color:white;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 5%;
-    padding-top: 100px;
+    padding: 100px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
 #Information{
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 10vh;
+    max-width: 580px;
     
 }
 
@@ -148,6 +137,7 @@ nav ul li:hover{
     color: #23272a;
     font-weight: bold;
     font-size: 60px;
+    
 }
 
 .SecondBox p{
@@ -160,15 +150,10 @@ nav ul li:hover{
 }
 
 .ThirdBox{
-    background: #f6f6f6;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 5%;
-    padding-top: 100px;
-    position:relative;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color:#f8f4f4;;
+    padding: 100px;
+    display: flex;
+    justify-content: center;  
 }
 
 .ThirdBox h2{
@@ -178,30 +163,25 @@ nav ul li:hover{
 }
 
 .ThirdBox p{
-    padding:0;
     color:black;
     text-decoration: none;
     font-size: 24;
     line-height: 35px;
     margin-top: 20px;
+    padding:0;
 }
 
-#VoiceConnection {
+#VoiceConnection{
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 10vh;
+    max-width: 580px;
 }
 
 .FourthBox{
-    background: white;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 5%;
-    padding-top: 100px;
-    position:relative;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 100px;
+    display: flex;
+    justify-content: center;  
 }
 
 .FourthBox h2{
@@ -211,74 +191,74 @@ nav ul li:hover{
 }
 
 .FourthBox p{
-    padding:0;
     color:black;
     text-decoration: none;
     font-size: 24;
     line-height: 35px;
     margin-top: 20px;
+    padding:0;
 }
 
 #ForAll{
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 10vh;
+    max-width: 580px;
 }
 
 footer{
-    background: #23272a;
+    background-color: #28242c;
     display: flex;
-    flex-direction: row;
-    padding:40px;
-    color:white;
     text-decoration: none;
-    font-weight: bold;
-
+    align-content: space-around;
+    padding: 15px;
+    justify-content: center;
 }
 
-footer h2{
+footer a{
+    text-decoration: none;
     color: #484cec;
 }
 
-footer ul{
-    text-decoration: none;
-    list-style: none;
-}
-
-footer ul li{
-    padding-top: 15px;
-}
-
-#Contato {
-    padding-left: 180px;
-    padding-right: 180px;
-    text-decoration: none;
-}
-
-#Contato a{
-    color: white;
-}
-
-#Socials{
-    padding-right:180px;
-}
-
-#Socials a {
+footer span{
     color:white;
+    font-weight: bold;
+    padding: 10px;
 }
 
-#Network{
-    color:#484cec;
-    font-size: 24px;
-    font-family: 'Kanit', sans-serif;
+@media all and (max-width: 1080px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .MainBoxButtons{
+        flex-direction: column;
+    }
+
+    .SecondBox{
+        flex-direction: column;
+    }
+
+    .ThirdBox{
+        flex-direction: column;
+    }
+
+    .FourthBox{
+        flex-direction: column;
+    }
+
+    #Information, #VoiceConnection, #ForAll {
+        padding: 0;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
     
-}
-
-#Autor{
-    font-family: 'Kanit', sans-serif;
-}
-
-#Warning{
-    padding-top: 80px;
-    padding-right: 180px;
 }
