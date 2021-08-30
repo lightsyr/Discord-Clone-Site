@@ -53,11 +53,12 @@ nav img{
 
 .MainBox, .SecondBox, .ThirdBox, .FourthBox{
     align-content: center;
+    align-items: center;
     
 }
 
 .SecondBox img, .ThirdBox img, .FourthBox img{
-    min-width: 280px;
+    min-width: 280pxg;
 }
 
 .MainBox{
