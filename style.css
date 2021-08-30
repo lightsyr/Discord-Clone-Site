@@ -51,13 +51,6 @@ nav img{
     cursor: pointer;
 }
 
-.MainBox, .SecondBox, .ThirdBox, .FourthBox{
-    align-content: center;
-    
-    
-}
-
-
 
 .MainBox{
     display: flex;
