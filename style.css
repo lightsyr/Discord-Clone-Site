@@ -67,7 +67,7 @@ nav img{
 .MainBox h1,p{
     color: white;
     padding: 20px;
-    min-width: 320px;  
+    min-width: 280px;  
 }
 
 .MainBox p{
@@ -138,7 +138,7 @@ nav img{
     color: #23272a;
     font-weight: bold;
     font-size: 60px;
-    min-width: 320px; 
+    min-width: 280px; 
     
 }
 
@@ -149,7 +149,7 @@ nav img{
     line-height: 35px;
     margin-top: 20px;
     padding:0;
-    min-width: 320px; 
+    min-width: 280px; 
 }
 
 .ThirdBox{
@@ -163,7 +163,7 @@ nav img{
     color: #23272a;
     font-weight: bold;
     font-size: 60px;
-    min-width: 320px; 
+    min-width: 280px; 
 }
 
 .ThirdBox p{
@@ -173,7 +173,7 @@ nav img{
     line-height: 35px;
     margin-top: 20px;
     padding:0;
-    min-width: 320px; 
+    min-width: 280px; 
 }
 
 #VoiceConnection{
@@ -193,7 +193,7 @@ nav img{
     color: #23272a;
     font-weight: bold;
     font-size: 60px;
-    min-width: 320px; 
+    min-width: 280px; 
 }
 
 .FourthBox p{
@@ -203,7 +203,7 @@ nav img{
     line-height: 35px;
     margin-top: 20px;
     padding:0;
-    min-width: 320px; 
+    min-width: 280px; 
 }
 
 #ForAll{
