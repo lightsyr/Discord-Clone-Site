@@ -217,7 +217,7 @@ nav img{
 }
 
 .SecondBox img, .ThirdBox img, .FourthBox img {
-    min-width: 180px;
+    min-width: 100px;
 }
 
 
