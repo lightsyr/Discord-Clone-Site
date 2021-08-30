@@ -214,7 +214,7 @@ nav img{
 }
 
 .SecondBox img, .ThirdBox img, .FourthBox img {
-    min-width: 320px;
+    min-width: 240px;
 }
 
 footer{
@@ -237,7 +237,7 @@ footer span{
     padding: 10px;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 720px) {
     nav {
         flex-direction: column;
         align-items: center;
