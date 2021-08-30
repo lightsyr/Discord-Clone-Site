@@ -77,7 +77,7 @@ nav img{
 }
 
 .MainBox h1{
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #DownloadWindows{
@@ -123,7 +123,7 @@ nav img{
 .SecondBox{
     padding: 100px;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 #Information{
@@ -137,7 +137,7 @@ nav img{
 .SecondBox h2{
     color: #23272a;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     min-width: 280px; 
     
 }
@@ -162,7 +162,7 @@ nav img{
 .ThirdBox h2{
     color: #23272a;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     min-width: 280px; 
 }
 
@@ -192,7 +192,7 @@ nav img{
 .FourthBox h2{
     color: #23272a;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     min-width: 280px; 
 }
 
